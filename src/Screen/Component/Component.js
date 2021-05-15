@@ -220,6 +220,31 @@ const ResultsDetail = () => {
               </View>
             </View>
           </ScrollView>
+          <View>
+                 <Image
+                  style={{marginTop:50,width:'80%',marginLeft:'6%'}}
+                  source={require("../../img/Burger.jpg")}
+                />
+              <Text style={{textAlign:'center',fontWeight:'bold',fontSize:20}}>The Tummy Section</Text>
+              <Text style={{textAlign:'center'}}>5 star Rating</Text>
+          </View>
+          <View>
+                 <Image
+                  style={{marginTop:50,width:'80%',marginLeft:'6%'}}
+                  source={require("../../img/download.jpg")}
+                />
+              <Text style={{textAlign:'center',fontWeight:'bold',fontSize:20}}>The Tummy Section</Text>
+              <Text style={{textAlign:'center'}}>5 star Rating</Text>
+          </View>
+          <View>
+                 <Image
+                  style={{marginTop:50,width:'80%',marginLeft:'6%'}}
+                  source={require("../../img/food.jpg")}
+                />
+              <Text style={{textAlign:'center',fontWeight:'bold',fontSize:20}}>The Tummy Section</Text>
+              <Text style={{textAlign:'center'}}>5 star Rating</Text>
+          </View>
+          
         </ScrollView>
       </SafeAreaView>
     </View>

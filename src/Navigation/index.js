@@ -1,7 +1,10 @@
 import React from "react";
 import { Text, View, StyleSheet } from "react-native";
 import SearchScreen from "../Screen/SearchScreen";
-import Food from "../Screen/Component/Component";
+import HomeScreen from "../Screen/Component/Component";
+import FoodScreen from "../Screen/Food";
+import NutrionScreen from "../Screen/Nutrion";
+import OrderScreen from "../Screen/Order";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { createStackNavigator } from "@react-navigation/stack";
 import Icon from "@expo/vector-icons/Ionicons";
@@ -25,7 +28,7 @@ const BottomNavigation = () => {
     >
       <Tab.Screen
         name="Home"
-        component={Food}
+        component={HomeScreen}
         options={{
           tabBarLabel: "",
           tabBarIcon: ({ color, size }) => (
@@ -36,7 +39,27 @@ const BottomNavigation = () => {
 
       <Tab.Screen
         name="Food"
-        component={Food}
+        component={FoodScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ color, size }) => (
+            <Icon name="ios-compass" color={color} size={30} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Nurion"
+        component={NutrionScreen}
+        options={{
+          tabBarLabel: "",
+          tabBarIcon: ({ color, size }) => (
+            <Icon name="ios-compass" color={color} size={30} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="order"
+        component={OrderScreen}
         options={{
           tabBarLabel: "",
           tabBarIcon: ({ color, size }) => (
