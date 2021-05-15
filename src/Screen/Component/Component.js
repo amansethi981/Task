@@ -143,7 +143,7 @@ const ResultsDetail = () => {
               <View>
                 <Image
                   style={styles.image}
-                  source={require("../../img/Burger.jpg")}
+                  source={require("../../img/food.jpg")}
                 />
                 <Text style={styles.name}>BBQ</Text>
                 <Text style={styles.name}>5 Stars Reviews</Text>
@@ -171,19 +171,19 @@ const ResultsDetail = () => {
               <View>
                 <Image
                   style={styles.imgcircular}
-                  source={require("../../img/Burger.jpg")}
+                  source={require("../../img/download.jpg")}
                 />
               </View>
               <View>
                 <Image
                   style={styles.imgcircular}
-                  source={require("../../img/Burger.jpg")}
+                  source={require("../../img/food.jpg")}
                 />
               </View>
               <View>
                 <Image
                   style={styles.imgcircular}
-                  source={require("../../img/Burger.jpg")}
+                  source={require("../../img/OIP.jpg")}
                 />
               </View>
             </View>
@@ -197,25 +197,25 @@ const ResultsDetail = () => {
               <View>
                 <Image
                   style={styles.imgcircular}
-                  source={require("../../img/Burger.jpg")}
+                  source={require("../../img/food.jpg")}
                 />
               </View>
               <View>
                 <Image
                   style={styles.imgcircular}
-                  source={require("../../img/Burger.jpg")}
+                  source={require("../../img/download.jpg")}
                 />
               </View>
               <View>
                 <Image
                   style={styles.imgcircular}
-                  source={require("../../img/Burger.jpg")}
+                  source={require("../../img/OIP.jpg")}
                 />
               </View>
               <View>
                 <Image
                   style={styles.imgcircular}
-                  source={require("../../img/Burger.jpg")}
+                  source={require("../../img/food.jpg")}
                 />
               </View>
             </View>
